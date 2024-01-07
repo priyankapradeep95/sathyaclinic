@@ -12,4 +12,8 @@ class HomeController extends Controller
     public function home() {
         return view('sathya.home');
     }
+
+    public function about() {
+        return view('sathya.about.page');
+    }
 }
